@@ -1,0 +1,132 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "coffee_type",
+        "patterns": ["What kinds of coffee you have","what type of coffee","coffee type"],
+        "responses": ["we have only capachino"]
+      },
+      {
+        "tag": "tea_type",
+        "patterns": ["What kinds of tea you have","what type of tea","tea type"],
+        "responses": ["Sorry tea is not available today"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What do you sell?",
+          "what do you have?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "about_me",
+        "patterns": [
+          "Say about you owner",
+          "Tell me about tharun",
+          "What do you know about him?",
+          "who is tharun"
+            ],
+        "responses": [
+          "A guy from a small village and  want to explore workd and technology,he studied B.Tech(computer Science) passed out in 2018 from Hindustan university Linkedin profile:<a href=\"https://www.linkedin.com/in/tharun-pranav-aba765191\">Check</a>"
+        ]
+      },
+      {
+        "tag": "done",
+        "patterns": [
+          "Okay",
+          "Ok"
+          
+        ],
+        "responses": [
+          "Okay",
+          "Done!!",
+          "okay Cool"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "who are you?",
+          "you name"
+          
+        ],
+        "responses": [
+          "Hi im Valee im a bot"
+          
+        ]
+      }
+      
+    ]
+  }
