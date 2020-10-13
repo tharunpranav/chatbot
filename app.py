@@ -15,7 +15,7 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route("/get")
+@app.route("/GET")
 def get_bot_response():    
     userText = request.args.get('msg') 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
