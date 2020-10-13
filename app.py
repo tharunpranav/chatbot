@@ -52,7 +52,7 @@ def get_bot_response():
         probs = torch.softmax(output, dim=1)
         prob = probs[0][predicted.item()]
         if prob.item() > 0.70:
-            print(ITs came here)
+            print('ITs came here')
             for intent in intents['intents']:
                 if intent['tag'] == tag:
                     #print(f"{bot_name}:{random.choice(intent['responses'])}")
