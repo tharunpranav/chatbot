@@ -21,6 +21,7 @@ def get_bot_response():
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     k=os.getcwd()
     os.chdir(k)
+    print('-----------------------------------'k '--------------------------------')
     with open('data.json','r')as f:
         intents=json.load(f)
     FILE='data.pth'
@@ -51,6 +52,7 @@ def get_bot_response():
         probs = torch.softmax(output, dim=1)
         prob = probs[0][predicted.item()]
         if prob.item() > 0.70:
+            print('--------------------------------------'ITs came here'---------------------------------')
             for intent in intents['intents']:
                 if intent['tag'] == tag:
                     #print(f"{bot_name}:{random.choice(intent['responses'])}")
