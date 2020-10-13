@@ -21,10 +21,9 @@ def get_bot_response():
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     k=os.getcwd()
     os.chdir(k)
-    print('-------------------------------------------------------------------------')
-    print(k)
     with open('data.json','r')as f:
         intents=json.load(f)
+        print('-------------------------------------------------------------------------')
     FILE='data.pth'
     data=torch.load(FILE)
     input_size = data['input_size']
