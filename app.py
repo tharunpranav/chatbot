@@ -23,7 +23,7 @@ def get_bot_response():
     os.chdir(k)
     with open('data.json','r')as f:
         intents=json.load(f)
-        print('-------------------------------------------------------------------------')
+    print(intents)
     FILE='data.pth'
     data=torch.load(FILE)
     input_size = data['input_size']
