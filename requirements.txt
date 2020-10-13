@@ -1,6 +1,6 @@
 ﻿Flask
 Flask-RESTful
-pytorch==1.5.1+cpu
+http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linux_x86_64.whl
 numpy
 nltk
 uwsgi
