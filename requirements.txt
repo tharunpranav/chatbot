@@ -1,6 +1,5 @@
 ﻿Flask
 Flask-RESTful
-conda install pytorch-cpu torchvision-cpu -c pytorch
 numpy
 nltk
 uwsgi
