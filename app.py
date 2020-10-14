@@ -60,7 +60,7 @@ def get_bot_response():
         else:
             
             #print(f'{bot_name}: i cont understand')
-            return f'I cont understand :( but ill store this question in my database as soon as possible Tharun will train me with this questions'
+            return f'I cant understand :( but ill store this question in my database as soon as possible Tharun will train me with this questions'
           
 
 if __name__ == "__main__":
