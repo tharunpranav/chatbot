@@ -51,14 +51,14 @@ def get_bot_response():
         probs = torch.softmax(output, dim=1)
         prob = probs[0][predicted.item()]
         if prob.item() > 0.70:
-            print('--------------------------------------------------------------------')
+           
             for intent in intents['intents']:
                 if intent['tag'] == tag:
-                    print('///////////////////////////////////////////////////////////////////////')
+                    
                     #print(f"{bot_name}:{random.choice(intent['responses'])}")
                     return f"{random.choice(intent['responses'])}"
         else:
-            print('--------------------------------------------------------------------')
+            
             #print(f'{bot_name}: i cont understand')
             return f'I cont understand :( but ill store this question in my database as soon as possible Tharun will train me with this questions'
           
