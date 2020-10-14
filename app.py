@@ -18,12 +18,11 @@ def home():
 @app.route("/GET", methods=['GET'])
 def get_bot_response():    
     userText = request.args.get('msg') 
-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cpu')
     k=os.getcwd()
     os.chdir(k)
     with open('data.json','r')as f:
         intents=json.load(f)
-    print(intents)
     FILE='data.pth'
     data=torch.load(FILE)
     input_size = data['input_size']
