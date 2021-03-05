@@ -91,18 +91,6 @@
         ]
       },
       {
-        "tag": "about_me",
-        "patterns": [
-          "Say about you owner",
-          "Tell me about tharun",
-          "What do you know about him?",
-          "who is tharun"
-            ],
-        "responses": [
-          "A guy from a small village and  want to explore workd and technology,he studied B.Tech(computer Science) passed out in 2018 from Hindustan university Linkedin profile:<a href=\"https://www.linkedin.com/in/tharun-pranav-aba765191\">Check</a>"
-        ]
-      },
-      {
         "tag": "done",
         "patterns": [
           "Okay",
